@@ -1,0 +1,79 @@
+.hover:hover {
+  cursor: pointer; 
+}
+body {
+  background: #eef7fa;
+}
+i {
+  color: red;
+}
+
+.card {
+  margin-top: 20px;
+}
+.main-header {
+  background: url('https://ak0.picdn.net/shutterstock/videos/10135880/thumb/1.jpg');
+  background-position: center;
+  height: 30vh;
+  background-size: cover;
+}
+
+.tabs .tab a:hover,.tabs .tab a:focus {
+  background-color: transparent !important;
+}
+.tabs .tab a:hover {
+  font-size: 15px;
+}
+
+.tabs .tab a {
+  font-weight: 700;
+}
+
+.todoCard {
+  display: none;
+}
+
+.goalCard {
+  display: none;
+}
+
+.responsive-img {
+  margin-top: 20px;
+  border: 10px solid #26a69a;
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.material-icons:hover {
+  font-size: 50px;
+  margin: -15px -20px;
+  cursor: pointer;
+}
+
+
+
+/* Spinner 1 */
+
+.spinner-1:before {
+  content: "";
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 60px;
+  width: 60px;
+  margin-top: 110px;
+  margin-left: -30px;
+  border-radius: 50%;
+  border: 3px solid teal;
+  border-top-color: turquoise; 
+  animation: spinner 0.7s linear infinite; 
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg)
+  }
+}
